@@ -1,0 +1,120 @@
+# SourceControlGenerator #
+##########################
+SourceControlGenerator.json
+.vscode/
+
+# Levels
+######################
+Mods/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Levels/*
+Mods/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Globals/*
+Editor/Mods/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Levels/*
+
+# Story files        #
+######################
+*.div
+*.raw
+story_orphanqueries_ignore.txt
+Mods/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Story/Dialogs/Autosave/*
+Mods/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Story/Dialogs/Recovered/*
+
+# Asset Folders      #
+######################
+Public/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/Assets/*
+#Public/NoEquippingRequirements_ad55ef31-4093-4fa8-905c-33c151a30d2c/GUI/*
+
+# Editor files       #
+######################
+RootTemplateSelectorConfig_*
+ResourceSelectorConfig_*
+StatsEditorConfig.xml
+EffectEditorConfig.xml
+DockPanel.config
+EditorBrowserMetadata_*
+EditorBrowserMetadata.xml
+Autosave/*
+Recovered/*
+ReConHistory.txt
+story.debugInfo
+
+# Assets             #
+######################
+*.gr2
+*.dae
+*.swf
+*.bullet
+*.dds
+*.tga
+*.png
+*.ttf
+*.lsb
+*.lsf
+*.lsfx
+*.lsefx
+#*.lsx
+*.lsmg
+
+# Logs               #
+######################
+*.log
+*.ailog
+log.txt
+errors.txt
+dialoglog.txt
+personallog.txt
+
+# Binary Files       #
+######################
+*.dat
+*.data
+*.bik
+*.bnk
+*.bshd
+*.cur
+*.fnt
+*.iggy
+*.iggytex
+*.osi
+*.patch
+*.tmpl
+
+# Dump files         #
+######################
+*.stackdump
+*.dmp
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# VS Code #
+############
+launch.json
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+
+

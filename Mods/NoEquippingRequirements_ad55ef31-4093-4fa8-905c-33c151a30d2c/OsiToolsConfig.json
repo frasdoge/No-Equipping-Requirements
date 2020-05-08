@@ -1,0 +1,7 @@
+{
+    "RequiredExtensionVersion": 45,
+    "ModTable": "NER",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}
