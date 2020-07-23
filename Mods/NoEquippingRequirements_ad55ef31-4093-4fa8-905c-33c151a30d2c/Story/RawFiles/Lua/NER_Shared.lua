@@ -1,32 +1,19 @@
--- local function dump(o)
---     if type(o) == 'table' then
---        local s = '{ '
---        for k,v in pairs(o) do
---           if type(k) ~= 'number' then k = '"'..k..'"' end
---           s = s .. '['..k..'] = ' .. dump(v) .. ','
---        end
---        return s .. '} '
---     else
---        return tostring(o)
---     end
--- end
-
 local function OverrideRequirements(things)
 
     for _, thing in pairs(Ext.GetStatEntries(things)) do
 
         local reqs = Ext.StatGetAttribute(thing, "Requirements")
-        -- Ext.Print(dump(reqs))
 
         if (next(reqs) ~= nil) then
-
             for k, _ in pairs(reqs) do
-                reqs[k].Param = 0
+                if reqs[k].Requirement ~= "Tag" then
+                    reqs[k].Param = 0
+                else
+                    reqs[k] = nil
+                end
             end
 
             Ext.StatSetAttribute(thing, "Requirements", reqs)
-            -- Ext.Print(dump(reqs))
-
         end
 
     end
